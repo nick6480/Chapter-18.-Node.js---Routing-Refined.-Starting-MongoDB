@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Template</title>
+    </head>
+    <body>
+        <h1>Receipt</h1>
+        <div>
+            <p>You entered the following</p>
+            <h3>Subject</h3>
+            <p>${obj.POST.subject}</p>
+
+            <h3>Message</h3>
+            <pre>${obj.POST.message}</pre>
+
+            <h3>Name</h3>
+            <p>${obj.POST.name}</p>
+
+            <h3>Email</h3>
+            <p>${obj.POST.email}</p>
+
+            <h3>Date</h3>
+            <p>${obj.POST.date}</p>
+        </div>
+        <div>
+            <p><a href="/">Return to front page</a><p>
+        </div>
+    </body>
+</html>

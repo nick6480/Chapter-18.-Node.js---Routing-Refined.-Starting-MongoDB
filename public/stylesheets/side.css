@@ -1,0 +1,18 @@
+/* side.css */
+h1 {
+    color: red;
+    font-family: sans-serif;
+}
+ul {
+}
+header nav ul {
+    list-style: none;
+    width: 40%;
+    margin-right: 10px;
+    text-align: right;
+}
+header nav ul li {
+    border: 5px outset gray;
+    margin-right: 5px;
+    display: inline;
+}

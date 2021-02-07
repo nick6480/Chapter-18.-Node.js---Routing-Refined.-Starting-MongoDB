@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Kilroys Contact Page</title>
+        <link rel="stylesheet" href="side.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Kilroy</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/side">Side</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/contact-list">Contact list</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Talk To Me?</h2>
+            <form method="post" action="/contact">
+                <div>
+                    <p>
+                        Subject:<br/>
+                        <input type="text" name="subject" required/>
+                    </p>
+                    <p>
+                        Message:<br/>
+                        <textarea name="message" required></textarea>
+                    </p>
+                    <p>
+                        Name: <br/>
+                        <input type="text" name="name" required/>
+                    </p>
+                    <p>
+                        Email:<br/>
+                        <input type="email" name="email" required/>
+                    </p>
+                    <p>
+                        <br/><input type="submit" value="Send"/>
+                    </p>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>
+                &copy; McKilroy
+            </p>
+        </footer>
+    </body>
+</html>

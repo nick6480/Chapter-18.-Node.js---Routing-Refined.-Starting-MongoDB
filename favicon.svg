@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+    <style>
+        svg {
+            background-color: #006;
+        }
+        text {
+            fill: #ff3;
+            font-family: "DejaVu Serif", serif;
+            font-size: 90px;
+            font-weight: 900;
+        }
+    </style>
+    <text x=".08em" y=".9em">N</text>
+</svg>
