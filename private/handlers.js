@@ -37,6 +37,7 @@ module.exports = {
 
     contactList(req, res) {
       res.write(experimental.contactList());
+      res.end();
     },
 
     js(req, res) {
